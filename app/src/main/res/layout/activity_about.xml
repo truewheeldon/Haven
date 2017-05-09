@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/aboutTitle"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/colorDarkBlue"
+        android:contentDescription="@string/aboutHeader"
+        android:elevation="0dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center_vertical|start"
+        android:paddingEnd="0dp"
+        android:paddingStart="15dp"
+        android:text="@string/aboutHeader"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorBackground"
+        android:textSize="36sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/aboutBody"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/aboutBody"
+        android:textColor="@color/colorTextGray"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutTitle" />
+
+    <TextView
+        android:id="@+id/aboutResources"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/aboutResources"
+        android:textColor="@color/colorTextGray"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutBody"
+        tools:text="@string/aboutResources" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:elevation="0dp"
+        android:linksClickable="true"
+        android:phoneNumber="false"
+        android:text="@string/numbers"
+        android:textAlignment="viewStart"
+        android:textIsSelectable="false"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutResources" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="{relativePackage}.${activityClass}" >
+
+    <!--fairly standard layout design - header with listview below it -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/colorDarkBlue"
+            android:elevation="6dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/title"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="@string/title"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorBackground"
+                android:textSize="36sp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="25dp" />
+
+            <!--link to the about page-->
+
+            <ImageButton
+                android:id="@+id/aboutButton"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="27dp"
+                android:layout_weight="0"
+                android:background="@android:drawable/ic_dialog_info"
+                android:elevation="1dp"
+                android:scaleType="centerInside"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="15dp"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:padding="5dp" />
+    </LinearLayout>
+
+</RelativeLayout>

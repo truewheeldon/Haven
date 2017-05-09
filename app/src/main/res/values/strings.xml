@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TrueWheeldonCapstone</string>
+    <string name="title">Haven</string>
+    <string name="contentdescription">This is one of the many images on Haven.</string>
+    <string name="aboutHeader">About Haven</string>
+    <string name="aboutBody">Haven is a safe virtual space for people with anxiety disorders. Designed with the most common anxiety triggers in mind, it is a tool to distance oneself from the many upsetting and distressing things on the internet and on social media applications.</string>
+    <string name="aboutResources">Below are a list of resources available for anyone in need of help:</string>
+    <string name="numbers">Crisis Call Center\n
+800-273-8255 or text ANSWER to 839863 \n
+        Available 24/7\n
+http://crisiscallcenter.org/crisis-services\n \n
+        National Hopeline Network\n
+800-SUICIDE (784-2433)\n
+800-442-HOPE (4673)\n
+Available 24/7\n
+http://www.hopeline.com
+
+    </string>
+</resources>
